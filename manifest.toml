@@ -1,0 +1,40 @@
+manifest_version = "0.0.0-alpha"
+
+[library]
+name = "test_lib_3"
+version = "1.0.0"
+short_description = "library: test_lib_3 version: 1.0.0" # less than 120 characters
+long_description = "This library name: test_lib_3 This library version: 1.0.0"
+authors = [
+    { name = 'dev name', email = 'dev.name@email.com' },
+    { name = 'another dev', email = 'another.dev@email.com' },
+]
+maintainers = [
+    { name = 'some maintainer', email = 'smaintainer@email.com' },
+    { name = 'another maintainer', email = 'amaintainer@email.com' },
+]
+tags = ['tag', 'another-tag']
+readme = "README.md"
+license = { file = "license.txt", identifier = "Apache-2.0" }
+# license = { text = "MIT License" }
+
+[dependencies]
+
+test_lib_1 = "1.0.0"
+test_lib_2 = "1.0.0"
+
+
+# TODO: support this later
+# [files]
+# scad = ["path/to/file.scad", "glob/pattern/to/some/*files.scad"]
+# exclude = []
+
+[urls] # TODO: remove urls?
+repository = "github.com/user/repo_name"
+homepage = "example.com"
+documentation = "example.com"
+preview_images = [
+    "path/to/image1.png",
+    "path/to/image2.png",
+    "http://url/to/image.png",
+]

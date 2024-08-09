@@ -2,9 +2,9 @@ manifest_version = "0.0.0-alpha"
 
 [library]
 name = "test_lib_3"
-version = "2.0.1"
-short_description = "library: test_lib_3 version: 2.0.1" # less than 120 characters
-long_description = "This library name: test_lib_3 This library version: 2.0.1"
+version = "2.0.2"
+short_description = "library: test_lib_3 version: 2.0.2" # less than 120 characters
+long_description = "This library name: test_lib_3 This library version: 2.0.2"
 authors = [
     { name = 'dev name', email = 'dev.name@email.com' },
     { name = 'another dev', email = 'another.dev@email.com' },
@@ -20,8 +20,8 @@ license = { file = "license.txt", identifier = "Apache-2.0" }
 
 [dependencies]
 
-test_lib_1 = "2.0.1"
-test_lib_2 = "2.0.1"
+test_lib_1 = "2.0.2"
+test_lib_2 = "2.0.2"
 
 
 # TODO: support this later
